@@ -5,6 +5,7 @@ export default async function handler(req, res) {
   try {
     await connectDb();
     const products = await Product.find();
+    console.log(products);
     let tshirts = {};
     for (let item of products) {
       if (item.title in tshirts) {
