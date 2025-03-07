@@ -73,11 +73,11 @@ const Navbar = ({
   };
 
   return (
-    <header className="sticky top-0 z-20 bg-gradient-to-r from-indigo-600 to-purple-600 shadow-lg py-4 px-5 md:px-10 mx-auto flex items-center justify-between">
+    <header className="sticky top-0 z-20 bg-gradient-to-r from-indigo-600 to-purple-600 shadow-lg py-4 px-5 md:px-3 lg:px-10 mx-auto flex items-center justify-between">
       {/* <div className="max-w-7xl mx-auto flex items-center justify-between"> */}
       <div className="flex items-center gap-6">
         <Link href="/">
-          <div className="bg-white p-2 rounded-lg shadow-md transform hover:scale-105 transition-transform duration-200">
+          <div className="mr-3 bg-white p-2 rounded-lg shadow-md transform hover:scale-105 transition-transform duration-200">
             <Image
               src="/logo.png"
               alt="Logo"
@@ -90,7 +90,7 @@ const Navbar = ({
         </Link>
       </div>
       <div className="flex-1 flex justify-center">
-        <nav className="hidden md:flex gap-10 text-lg font-bold">
+        <nav className="hidden md:flex gap-2 lg:gap-10 text-lg font-bold">
           <Link
             href="/tshirts"
             className="text-white hover:text-yellow-200 transition-colors relative group"
@@ -130,7 +130,7 @@ const Navbar = ({
       </div>
       {/* </div> */}
 
-      <div className="flex items-center gap-6">
+      <div className="flex items-center gap-2 sm:gap-6">
         {user.value ? (
           <div className="relative">
             <button
@@ -193,9 +193,9 @@ const Navbar = ({
       </div>
 
       {/* Shopping Cart Sidebar */}
-      <div
+      {/* <div
         ref={cartRef}
-        className="fixed top-0 right-0 w-96 h-full bg-white shadow-2xl p-6 transition-transform duration-300 ease-in-out transform translate-x-full z-50"
+        className="fixed top-0 right-0 sm:w-96 h-full bg-white shadow-2xl p-6 transition-transform duration-300 ease-in-out transform translate-x-full z-50"
       >
         <h2 className="text-2xl font-bold mb-6 text-indigo-700 flex items-center">
           <FaShoppingCart className="mr-2" /> Shopping Cart
@@ -287,7 +287,7 @@ const Navbar = ({
             </button>
           )}
         </div>
-      </div>
+      </div> */}
     </header>
   );
 };

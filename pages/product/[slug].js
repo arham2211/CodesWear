@@ -279,7 +279,7 @@ const Post = ({ addToCart, product, variants, error }) => {
                       </div>
                     )}
 
-                    <div className="flex space-x-3 w-full md:w-auto">
+                    <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-3 w-full md:w-auto">
                       <button
                         disabled={product.availableQty <= 0 ? true : false}
                         onClick={() => {
@@ -313,7 +313,7 @@ const Post = ({ addToCart, product, variants, error }) => {
                       <Link href="/checkout">
                         <button
                           disabled={product.availableQty <= 0 ? true : false}
-                          className="flex-1 md:flex-initial disabled:opacity-60 disabled:cursor-not-allowed flex items-center justify-center space-x-2 text-white bg-indigo-600 hover:bg-indigo-700 border-0 py-3 px-5 focus:outline-none transition-colors duration-300 rounded-lg text-base font-medium shadow-md hover:shadow-lg"
+                          className="flex-1 w-full md:flex-initial disabled:opacity-60 disabled:cursor-not-allowed flex items-center justify-center space-x-2 text-white bg-indigo-600 hover:bg-indigo-700 border-0 py-3 px-5 focus:outline-none transition-colors duration-300 rounded-lg text-base font-medium shadow-md hover:shadow-lg"
                         >
                           <BsFillBagCheckFill className="text-md" />
                           <span>Checkout</span>
@@ -322,12 +322,12 @@ const Post = ({ addToCart, product, variants, error }) => {
                     </div>
                   </div>
 
-                  <div className="bg-gray-50 p-5 rounded-xl">
-                    <h3 className="text-sm font-semibold text-gray-700 mb-3">
+                  <div className="sm:bg-gray-50 sm:p-5 rounded-xl">
+                    <h3 className="sm:text-sm text-md font-semibold text-gray-700 mb-3">
                       Check Delivery Availability
                     </h3>
 
-                    <div className="flex space-x-2">
+                    <div className="flex flex-col sm:flex-row sm:space-x-2 sm:space-y-0 space-y-4">
                       <div className="relative flex-1">
                         <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                           <svg
@@ -353,7 +353,7 @@ const Post = ({ addToCart, product, variants, error }) => {
 
                       <button
                         onClick={checkServiceability}
-                        className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-300 flex items-center"
+                        className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-300 flex items-center justify-center"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"

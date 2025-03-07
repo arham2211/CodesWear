@@ -50,7 +50,7 @@ export default function Home() {
       <div className="relative h-[500px] md:h-[600px] lg:h-[700px] overflow-hidden">
         <img
           src="/CodesWear.jpg"
-          alt="CodesWear Hero"
+          alt="CodesWear Hero"  
           className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700 ease-in-out"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/40 flex items-center justify-center">
@@ -101,7 +101,7 @@ export default function Home() {
 
           <div className="flex flex-wrap -mx-4 -mt-8 -mb-8">
             {/* Product Categories */}
-            <div className="p-4 md:w-1/4 sm:w-1/2 w-full transform hover:-translate-y-3 transition-all duration-300 animate-on-scroll">
+            <div className="p-4 lg:w-1/4 sm:w-1/2 w-full transform hover:-translate-y-3 transition-all duration-300 animate-on-scroll">
               <div className="h-full bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl group">
                 <div className="w-16 h-16 mb-4 rounded-xl bg-indigo-100 flex items-center justify-center group-hover:bg-indigo-600 transition-colors duration-300">
                   <svg
@@ -147,7 +147,7 @@ export default function Home() {
             </div>
 
             <div
-              className="p-4 md:w-1/4 sm:w-1/2 w-full transform hover:-translate-y-3 transition-all duration-300 animate-on-scroll"
+              className="p-4 lg:w-1/4 sm:w-1/2 w-full transform hover:-translate-y-3 transition-all duration-300 animate-on-scroll"
               style={{ animationDelay: "0.1s" }}
             >
               <div className="h-full bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl group">
@@ -195,7 +195,7 @@ export default function Home() {
             </div>
 
             <div
-              className="p-4 md:w-1/4 sm:w-1/2 w-full transform hover:-translate-y-3 transition-all duration-300 animate-on-scroll"
+              className="p-4 lg:w-1/4 sm:w-1/2 w-full transform hover:-translate-y-3 transition-all duration-300 animate-on-scroll"
               style={{ animationDelay: "0.2s" }}
             >
               <div className="h-full bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl group">
@@ -243,7 +243,7 @@ export default function Home() {
             </div>
 
             <div
-              className="p-4 md:w-1/4 sm:w-1/2 w-full transform hover:-translate-y-3 transition-all duration-300 animate-on-scroll"
+              className="p-4 lg:w-1/4 sm:w-1/2 w-full transform hover:-translate-y-3 transition-all duration-300 animate-on-scroll"
               style={{ animationDelay: "0.3s" }}
             >
               <div className="h-full bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl group">
@@ -525,7 +525,7 @@ export default function Home() {
                 <input
                   type="email"
                   placeholder="Enter your email"
-                  className="flex-grow px-5 py-3 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-white"
+                  className="flex-grow px:5 md:px-0 md:ps-2 lg:px-5 py-3 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-white"
                 />
                 <button className="mt-3 sm:mt-0 bg-white text-indigo-600 font-medium px-6 py-3 rounded-r-lg hover:bg-indigo-50 transition-colors duration-300">
                   Subscribe

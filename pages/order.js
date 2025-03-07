@@ -18,9 +18,9 @@ const MyOrder = ({ order }) => {
       <div className="container px-5 py-16 mx-auto">
         <div className="lg:w-4/5 mx-auto flex flex-wrap">
           <div className="lg:w-1/2 w-full lg:pr-12 lg:py-8 mb-8 lg:mb-0">
-            <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
-              <div className="flex items-center justify-between mb-6">
-                <h2 className="text-sm title-font text-indigo-600 font-bold tracking-widest">
+            <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md border border-gray-100">
+              <div className="sm:flex items-center justify-between sm:mb-6 mb-3">
+                <h2 className="text-sm title-font text-indigo-600 font-bold tracking-widest mb-3">
                   CODESWEAR.COM
                 </h2>
                 <span className="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full font-medium">
@@ -76,7 +76,7 @@ const MyOrder = ({ order }) => {
             </div>
           </div>
 
-          <div className="lg:w-1/2 w-full lg:h-auto h-64 rounded-xl overflow-hidden shadow-lg">
+          <div className="hidden sm:block lg:w-1/2 w-full lg:h-auto h-64 rounded-xl overflow-hidden shadow-lg">
             <img
               alt="Order confirmation"
               className="w-full h-full object-cover object-center"

@@ -91,7 +91,7 @@ const Login = () => {
       {/* Decorative Elements */}
       <div className="absolute top-10 left-10 w-64 h-64 bg-pink-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
       <div className="absolute top-0 right-10 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
-      <div className="absolute bottom-10 left-20 w-72 h-72 bg-indigo-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
+      <div className="hidden sm:block absolute bottom-10 left-20 w-72 h-72 bg-indigo-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
 
       <div className="sm:mx-auto sm:w-full sm:max-w-md relative z-10">
         <div className="bg-white py-10 px-8 shadow-2xl rounded-3xl sm:px-12 backdrop-blur-sm bg-opacity-80 transform transition-all duration-500 hover:shadow-[0_20px_50px_rgba(76,29,149,0.2)]">

@@ -159,7 +159,7 @@ const MyAcount = ({ user }) => {
   };
   return (
     <>
-      <div className="container m-auto py-12 px-6 max-w-5xl">
+      <div className="container m-auto py-12 sm:px-6 px-3 max-w-5xl">
         <Head>
           <title>My Account - CodesWear</title>
           <meta name="description" content="CodesWear.com - Wear the code" />
@@ -181,7 +181,7 @@ const MyAcount = ({ user }) => {
         <div className="bg-gradient-to-b from-white to-gray-50 shadow-xl rounded-2xl overflow-hidden">
           <div className="h-24 bg-gradient-to-r from-indigo-600 to-purple-600"></div>
           
-          <div className="relative px-8 pt-0 pb-12">
+          <div className="relative px-4 sm:px-8 pt-0 pb-12">
             <div className="flex justify-center">
               <div className="bg-white rounded-full p-3 shadow-lg -mt-12 border-4 border-white">
                 <div className="bg-indigo-500 text-white rounded-full w-16 h-16 flex items-center justify-center">
@@ -437,7 +437,7 @@ const MyAcount = ({ user }) => {
                 
                 <button
                   onClick={handlePasswordSubmit}
-                  className="mt-3 flex items-center justify-center text-white bg-gradient-to-r from-indigo-600 to-indigo-700 hover:from-indigo-700 hover:to-indigo-800 border-0 py-3 px-8 focus:outline-none rounded-lg text-md font-medium transition-all duration-300 shadow-md hover:shadow-lg w-full md:w-auto"
+                  className="mt-3 flex items-center justify-center text-white bg-gradient-to-r from-indigo-600 to-indigo-700 hover:from-indigo-700 hover:to-indigo-800 border-0 py-3 sm:px-8 focus:outline-none rounded-lg text-md font-medium transition-all duration-300 shadow-md hover:shadow-lg w-full md:w-auto"
                 >
                   <div className="flex items-center space-x-2">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
