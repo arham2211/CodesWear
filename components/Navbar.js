@@ -193,7 +193,7 @@ const Navbar = ({
       </div>
 
       {/* Shopping Cart Sidebar */}
-      {/* <div
+      <div
         ref={cartRef}
         className="fixed top-0 right-0 sm:w-96 h-full bg-white shadow-2xl p-6 transition-transform duration-300 ease-in-out transform translate-x-full z-50"
       >
@@ -287,7 +287,7 @@ const Navbar = ({
             </button>
           )}
         </div>
-      </div> */}
+      </div>
     </header>
   );
 };
